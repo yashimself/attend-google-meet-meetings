@@ -9,6 +9,7 @@ If you use a linux distro, you probably got this already. Check with the followi
 python3 -V
 ```
 or [Download](https://www.python.org/downloads/) for your machine.
+
 2. `pip3`
 
 You may or may not have this depending on your distro (Most linux guys may not have this)
