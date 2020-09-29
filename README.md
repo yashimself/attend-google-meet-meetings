@@ -36,6 +36,9 @@ to the path of wherever you placed the chrome driver.
 4. `Chrome`
 [Download](https://www.google.com/intl/en_in/chrome/) it from here
 
+5. `2FA`
+2 Factor Authentication must be disabled for the account that you're going to use here.
+
 # Usage
 
 Open the project directory in terminal
