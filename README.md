@@ -1,6 +1,6 @@
 # Auto-lecture attender
 ***
-This python script lets you automatically join a Google meet meeting and attend it for a specified time period. Mind it, this script is not for skipping lectures [I wrote it during a lecture anyway :)].
+This python script lets you automatically join a Google meet meeting and attend it for a specified time period. Mind it, this script is not for skipping lectures.
 ***
 # Dependencies
 1. `python3`
@@ -51,7 +51,7 @@ to the path of wherever you placed the chrome driver.
 Open the project directory in terminal
 
 From the root directory of the project:
-
+<br>This will probably work in shell only:
 ```
 source bin/activate
 ```
