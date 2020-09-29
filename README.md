@@ -5,14 +5,18 @@ This python script lets you automatically join a Google meet meeting and attend 
 # Dependencies
 1. `python3`
 If you use a linux distro, you probably got this already. Check with the following command:
-`python3 -V`
+```python
+python3 -V
+```
 or [Download](https://www.python.org/downloads/) for your machine.
 2. `pip3`
 
 You may or may not have this depending on your distro (Most linux guys may not have this)
 
 Check:
-`pip3 -V`
+```
+pip3 -V
+```
 
 Install it using following command:
 `apt-get install python3-pip`
@@ -20,9 +24,11 @@ Install it using following command:
 3. `selenium`
 
 Install using pip3 from a terminal:
-`pip install selenium`
+```
+pip install selenium
+```
 
-Download driver for chrome from [here](https://chromedriver.storage.googleapis.com/index.html?path=86.0.4240.22/). Choose the one which matches your machine.
+Download driver for chrome from [here](https://chromedriver.storage.googleapis.com/index.html). Choose the one which matches your Chrome version [Go into the version directory after loading the page].
 
 After downloading chrome driver, extract the .zip file.
 Place the driver file somewhere secure. (/usr/local/bin for linux)
@@ -34,7 +40,7 @@ self.driver = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
 to the path of wherever you placed the chrome driver.
 
 4. `Chrome`
-[Download](https://www.google.com/intl/en_in/chrome/) it from here
+[Download](https://www.google.com/intl/en_in/chrome/) it from here. Chrome should be ready to use, with all initial setup done.
 
 5. `2FA`
 2 Factor Authentication must be disabled for the account that you're going to use here.
@@ -43,8 +49,16 @@ to the path of wherever you placed the chrome driver.
 
 Open the project directory in terminal
 
+From the root directory of the project:
+
+```
+source bin/activate
+```
+
 Run the main file using following command:
-`python3 main.py`
+```python
+python3 main.py
+```
 
 `Enter your Gmail address:`
 It'll ask you for your Gmail address. This would be the address using which you may want to join the meet.
